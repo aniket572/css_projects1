@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .scale{
+            height: 100px;
+            width: 100px;
+            border: 2px groove red;
+            background-color: blueviolet;
+            text-align: center;
+            line-height: 80px;
+            margin: 100px auto;
+            color: goldenrod;
+        }
+        #scaleX{
+            transform: scaleX(3);
+        }
+        #scaleY{
+            transform: scaleY(1.5);
+        }
+        #scaleZ{
+            transform: scaleZ(2);
+        }
+        #scale{
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+    <div class="scale" id="scaleX">SCALE-X</div>
+    <div class="scale" id="scaleY">SCALE-Y</div>
+    <div class="scale" id="scaleZ">SCALE-Z</div>
+    <div class="scale" id="scale">SCALE</div>
+</body>
+</html>

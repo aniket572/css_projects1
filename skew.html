@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .skew{
+            height: 100px;
+            width: 100px;
+            border: 3px groove rgb(19, 2, 2);
+            background-color: rgb(43, 76, 226);
+            text-align: center;
+            line-height: 80px;
+            margin: 100px auto;
+            color: goldenrod;
+        }
+        #skewX{
+            transform: skewX(50deg);
+        }
+        #skewY{
+            transform: skewY(25deg);
+        }
+        #skew{
+            transform: skew(150deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="skew" id="skewX">SKEW-X</div>
+    <div class="skew" id="skewY">SKEW-Y</div>
+    <div class="skew" id="skew">SKEW</div>
+</body>
+</html>
